@@ -123,7 +123,6 @@ def find_matching_content(html):
 
 
 def main():
-    send_telegram("✅ Test message: DAB Housing Monitor is connected and working.")
     seen = load_seen()
     html = fetch_page()
     listings = find_matching_content(html)
